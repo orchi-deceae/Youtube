@@ -266,15 +266,27 @@
             box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
             display: inline-block;
         }
+        .brave-div-{
+            text-align: center;
+            display: inline-block;
+            width: 374px;
+        }
+        .descrip-div-{
+            display: inline-block;
+        }
+
+        .friends-div-{
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            column-gap: 15px;
+        }
         .friend-div-{
             width: 200px;
             border-radius: 5px;
             border-style: solid;
             border-width: 1px;
             border-color: rgba(0, 0, 0, 0.4);
-            margin-top: 10px;
-            margin-right: 20px;
-            display: inline-block;
         }
         .friend-img-{
             width: 200px;
@@ -307,12 +319,6 @@
             margin-top: 0px;
             margin-bottom: 5px;
         }
-        .brave-div-{
-            text-align: center;
-            display: inline-block;
-            width: 374px;
-        }
-
         </style>
 
     </head>
@@ -384,10 +390,10 @@
             Schedule for later
         </button>
         <div>
-        <div class="red-"></div>
-        <div class="green-"></div>
+            <div class="red-"></div>
+            <div class="green-"></div>
         </div>
-        <div>
+        
         <div class="service-div-">
             <p class="service-">
                 Satisfied with our service?
@@ -399,55 +405,69 @@
                 No
             </button>
         </div>
+
         <div>
-        <div class="install-div-">
-            <p class="install-">
-                Install Youtube Music
-            </p>
-            <p class="add-">
-                Add Youtube Music to you desktop for quick and easy access
-            </p>
-        </div>
-        
-        </div>
-        <div class="friend-div-">
-            <img src="IMG_c7sokl.jpg" class="friend-img-">
-            <p class="friend-">
-                Oliver
-            </p>
-            <p class="mutual-">
-                2 mutual friends
-            </p>
-            <button class="friend-butt-">
-                Add Friend
-            </button>
+            <div class="install-div-">
+                <p class="install-">
+                    Install Youtube Music
+                </p>
+                <p class="add-">
+                    Add Youtube Music to you desktop for quick and easy access
+                </p>
+            </div>
         </div>
 
-        
-        <div class="friend-div-">
-            <img src="IMG_c7sokl.jpg" class="friend-img-">
-            <p class="friend-">
-                Mimi
-            </p>
-            <p class="mutual-">
-                3 mutual friends
-            </p>
-            <button class="friend-butt-">
-                Add Friend
-            </button>
-        </div>
+        <div class="friends-div-">
+            <div class="friend-div-">
+                <div>
+                    <img src="IMG_c7sokl.jpg" class="friend-img-">
+                </div>
+                <div class="descrip-div">
+                    <p class="friend-">
+                        Oliver
+                    </p>
+                    <p class="mutual-">
+                        2 mutual friends
+                    </p>
+                    <button class="friend-butt-">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
 
-        <div class="friend-div-">
-            <img src="IMG_c7sokl.jpg" class="friend-img-">
-            <p class="friend-">
-                Rex
-            </p>
-            <p class="mutual-">
-                4 mutual friends
-            </p>
-            <button class="friend-butt-">
-                Add Friend 
-            </button>
+            <div class="friend-div-">
+                <div>
+                    <img src="IMG_c7sokl.jpg" class="friend-img-">
+                </div>
+                <div class="descrip-div">
+                    <p class="friend-">
+                        Mimi
+                    </p>
+                    <p class="mutual-">
+                        3 mutual friends
+                    </p>
+                    <button class="friend-butt-">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+
+            <div class="friend-div-">
+                <div>
+                    <img src="IMG_c7sokl.jpg" class="friend-img-">
+                </div>
+                <div class="descrip-div">
+                    <p class="friend-">
+                        Rex
+                    </p>
+                    <p class="mutual-">
+                        4 mutual friends
+                    </p>
+                    <button class="friend-butt-">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
         </div>
     </body>
 </html>
